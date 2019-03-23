@@ -1,0 +1,86 @@
+{
+    "frames": [
+        {
+            "filename": "explosion0",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 55,
+                "h": 57
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "explosion1",
+            "frame": {
+                "x": 55,
+                "y": 0,
+                "w": 55,
+                "h": 57
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "explosion2",
+            "frame": {
+                "x": 110,
+                "y": 0,
+                "w": 55,
+                "h": 57
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "explosion3",
+            "frame": {
+                "x": 0,
+                "y": 57,
+                "w": 55,
+                "h": 57
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "explosion4",
+            "frame": {
+                "x": 55,
+                "y": 57,
+                "w": 55,
+                "h": 57
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "explosion5",
+            "frame": {
+                "x": 110,
+                "y": 57,
+                "w": 55,
+                "h": 57
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

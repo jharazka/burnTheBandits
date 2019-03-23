@@ -1,0 +1,21 @@
+{
+    "frames": [
+        {
+            "filename": "fall",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 27
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

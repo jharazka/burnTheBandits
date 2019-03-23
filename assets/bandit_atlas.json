@@ -1,0 +1,112 @@
+{
+    "frames": [
+        {
+            "filename": "bandit0",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 48,
+                "h": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "bandit1",
+            "frame": {
+                "x": 48,
+                "y": 0,
+                "w": 48,
+                "h": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "bandit2",
+            "frame": {
+                "x": 96,
+                "y": 0,
+                "w": 48,
+                "h": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "bandit3",
+            "frame": {
+                "x": 144,
+                "y": 0,
+                "w": 48,
+                "h": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "bandit4",
+            "frame": {
+                "x": 0,
+                "y": 66,
+                "w": 48,
+                "h": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "bandit5",
+            "frame": {
+                "x": 48,
+                "y": 66,
+                "w": 48,
+                "h": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "bandit6",
+            "frame": {
+                "x": 96,
+                "y": 66,
+                "w": 48,
+                "h": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "bandit7",
+            "frame": {
+                "x": 144,
+                "y": 66,
+                "w": 48,
+                "h": 66
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

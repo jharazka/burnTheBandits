@@ -1,0 +1,164 @@
+{
+    "frames": [
+        {
+            "filename": "firen0",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen1",
+            "frame": {
+                "x": 43,
+                "y": 0,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen2",
+            "frame": {
+                "x": 86,
+                "y": 0,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen3",
+            "frame": {
+                "x": 129,
+                "y": 0,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen4",
+            "frame": {
+                "x": 0,
+                "y": 74,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen5",
+            "frame": {
+                "x": 43,
+                "y": 74,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen6",
+            "frame": {
+                "x": 86,
+                "y": 74,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen7",
+            "frame": {
+                "x": 129,
+                "y": 74,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen8",
+            "frame": {
+                "x": 0,
+                "y": 148,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen9",
+            "frame": {
+                "x": 43,
+                "y": 148,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen10",
+            "frame": {
+                "x": 86,
+                "y": 148,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "firen11",
+            "frame": {
+                "x": 129,
+                "y": 148,
+                "w": 43,
+                "h": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Phaser3",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}
