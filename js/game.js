@@ -40,11 +40,6 @@ class Enemy {
     this.sprite.burn= false;
   }
   collide(what){
-    // const killPlayer= () => {
-    //   if (this.fall !== true && this.sprite.burn !== true){
-    //     what.scene.start('main');
-    //   }
-    // };
     what.physics.add.collider(layer, this.sprite);
     what.physics.add.collider(player, this.sprite);
   }
@@ -72,7 +67,7 @@ class Enemy {
         }
       }, 3000);
     } else if (this.fall === true) {
-        this.sprite.anims.play('fall', false);
+        this.sprite.anims.play('fall', true);
     } else {
         this.sprite.body.setVelocityX(100 * (this.sprite.flipX ? -1 : 1));
         this.sprite.anims.play('enemyWalk', true);
@@ -195,7 +190,7 @@ function create() {
     });
     this.anims.create({
       key: 'fall',
-      frames: this.anims.generateFrameNames('fall', {prefix: 'fall'}),
+      frames: this.anims.generateFrameNames('fall', {prefix: 'fall', start: 0, end: 0}),
     });
     this.anims.create({
       key: 'burn',
@@ -315,16 +310,16 @@ function update() {
       player.anims.play('shot', true);
       if (this.time.now > fireballTime) {
         const fireball = this.physics.add.sprite(player.x, player.y + 10, 'fireball');
-
         fireball.setCollideWorldBounds(true);
         fireballs.add(fireball);
         player.flipX ? fireball.flipX= true : fireball.flipX= false;
         fireball.body.setVelocityX(500 * (player.flipX ? -1 : 1));
         fireball.anims.play('fireball', true);
-        fireballTime= this.time.now +400;
+        fireballTime= this.time.now +600;
         fireball.body.gravity.y= -500;
       }
   }
+
    bandit.move(this);
    villian.move(this);
    ziomek.move(this);
